@@ -5,10 +5,7 @@ Learning Django and MLops :)
 
 DEMO: 
 
-
-
-https://github.com/Sa1tyBiscuit/mlops-houseprice-prediction/assets/58919516/f37534c0-cbdb-4667-8648-194218fbc174
-
+![house_price_demo_AdobeExpress](https://github.com/Sa1tyBiscuit/mlops-houseprice-prediction/assets/58919516/ba05e8c3-edf7-4349-853b-84f520c60cf2)
 
 
 Front End:
