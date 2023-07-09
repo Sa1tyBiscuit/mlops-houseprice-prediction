@@ -2,6 +2,15 @@
 
 Learning Django and MLops :)
 
+
+DEMO: 
+
+
+
+https://github.com/Sa1tyBiscuit/mlops-houseprice-prediction/assets/58919516/f37534c0-cbdb-4667-8648-194218fbc174
+
+
+
 Front End:
 - utilizes basic HTML and CSS
 - User is able to key in a value of the resale flat size which they would like to predict
