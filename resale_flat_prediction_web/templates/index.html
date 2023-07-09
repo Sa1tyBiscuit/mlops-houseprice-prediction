@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home page for house prediction model</title>
+    <meta
+    name="description"
+    content="A minimalist layout for the ML model home page. Built with Pico CSS."
+  />
+  
+  <!-- Pico.css -->
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+  />
+
+  <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="customs.css" />
+  </head>
+
+  <body>
+    <!-- Main -->
+    <main class="container">
+      <article class="grid">
+        <div>
+          <!-- <h1>resale flat price prediction</h1> -->
+            <form action="{% url 'result' %}">
+              {% csrf_token %}   
+              <input 
+              style="display: flex; width: 515px; border: 1px solid  #BBC6CE ; padding: 10px;"
+              type="number" 
+              name="flat_size"
+              placeholder="size of the flat in square met">
+              <button
+              type="submit"
+              class="contrast"
+              >
+              Predict!
+            </button>
+            <output style="display: flex; width: 515px; border: 1px solid  #BBC6CE ; padding: 10px;">
+              {{ result }}
+            </output>
+            
+          </form>
+        </div>
+        <div style="background-color: #0c0c0c; width: 300px; height: 220px; display: flex; align-items: center; justify-content: center; font-family: Arial; font-size: 88px;">
+          🏠
+        </div>
+      </article>
+  </main>
+
+
+  </body>
+</html>
